@@ -1,0 +1,72 @@
+﻿1. Object - is a section of memory that has been designated and configured according to the blueprint of the class.  
+
+
+2. Object-Oriented Programming (OOP) - A programming model where programs are organized around objects and data, not action and logic. 
+
+
+3. Object Instantiation - Creating an object of a defined class. 
+
+
+4. Object Constructor - When a class  is created, its constructor is called. Constructors enable the programmer to set default values, limit instantiation, and write code that is flexible and easy to read.
+
+
+5. The "new" keyword - The creation of objects from preliminarily defined classes during program execution. The newly created object is usually assigned to the variable from type coinciding with the class of the object. The “new” keyword allows for the declaration of a member with the same name or signature as an inherited member. When this occurs, the derived class member is said to hide the base class member.
+
+
+6. Fields -  Is a variable of any type that is declared directly in a class.
+
+
+7. Properties - Is a member that provides a flexible mechanism to read, write, or compute the value of a private field. A property can provide protection for a class field to keep it from being changed without the knowledge of the object.
+
+
+8. Methods - Methods define the actions that a class can perform. Methods can take parameters that provide input data, and can return output data through parameters. Is a code block that contains a series of statements.
+
+
+9. Static Members- a static class cannot be instantiated. You cannot use the new keyword to create a variable of the class type. Static is always accessed by the class name, not the instance name. Only one copy of a static member exists, regardless of how many instances of the class are created. Static member is callable on a class even when no instance of the class has been created.
+
+
+10. Non-Static Members -  can contain static methods, fields, properties, or events. Non-static members belong to the object.
+
+
+11. .NET -  is a layer of software that makes it easier for you to write programs that can communicate with the operating system (in this case, Windows).
+
+
+12. Encapsulation (in OOP) -  The process of enclosing one or more items within a physical or logical package'. Encapsulation, in object oriented programming methodology, prevents access to implementation details.
+13. Class (in OOP) - it defines a blueprint for a data type.
+
+
+14. Heap - The way in which the runtime manages the memory. Heap is like many boxes all over a room. Each box has a label on whether or not it is in use. When a new object is created, the runtime searches for an empty box and allocates it to the object. The reference to the object is stored in a local variable on the stack. The runtime keeps track of the number of references to each box. When the last reference disappears, the runtime marks the box as not in use, and at some point in the future it will empty the nox and make it available for reuse. 
+
+
+15. .NET CLR (garbage collection) - Common Language Runtime 
+
+
+16.Namespace - designed for providing a way to keep one set of names separate from another. The class names declared in one namespace does not conflict with the same class names declared in another.
+
+
+17. Constant (data in programming) - is an identifier with an associated value which cannot be altered by the program during normal execution, the value is constant.
+
+
+18. Utility Class - Provides a collection of helper functions you can use to configure settings for security, collections, driver manipulation, time, and idle CPU usage.
+
+
+19. Public Member (OOP) - member that can be accessed by any other code in the same assembly or another assembly that references it.
+
+
+20. Private Member (OOP) - The type or member can only be accessed by code in the same class.
+21. The "using" keyword - As a directive, when it is used to create an alias for a namespace or to import types defined in other namespaces. As a statement, when it defines a scope at the end of which an object will be disposed.
+
+
+22. Pointer - Is a variable that holds the address of, or reference to, an item in memory( on the heap or the stack). pi means pointer.
+
+
+23. Memory address - Fixed length sequences of digits conventionally displayed and manipulated as unsigned integers. 
+
+
+24. Mutable - liable to change.
+
+
+25. Immutable - unchanging over time. 
+
+
+26. Object Instance - is the object itself, which is created runtime. Each object is in instance of a                    specific class. Instances are characterized by  a set of values, associated with class attributes.
